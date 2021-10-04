@@ -47,6 +47,13 @@ int main(void)
         _delay_ms(SHORT_DELAY);
 
         // WRITE YOUR CODE HERE
+        PORTB |= 1 << LED_GREEN;
+        _delay_ms(SHORT_DELAY);
+        _delay_ms(SHORT_DELAY);
+        PORTB &= ~(1 << LED_GREEN);        
+        _delay_ms(SHORT_DELAY);
+        _delay_ms(SHORT_DELAY);
+        
     }
 
     // Will never reach this
