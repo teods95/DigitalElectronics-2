@@ -22,7 +22,7 @@ Link to your `Digital-electronics-2` GitHub repository:
 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 0 | 1 | 1 | 0 | 1 | 1 |
 | 1 | 0 | 1 | 0 | 1 | 0 |
-| 1 | 1 | 1 | 1 | 1 | 0 |
+| 1 | 1 | 1 | 1 | 0 | 0 |
 
 
 ### Morse code
