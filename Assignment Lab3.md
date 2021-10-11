@@ -16,7 +16,7 @@ Link to your `Digital-electronics-2` GitHub repository:
 | `uint16_t` | 16 | 0 .. 65,535 | unsigned short |
 | `int16_t`  | 16 | -32,768 .. 32,767 | signed short |
 | `float`    | 32 | -3.4e+38, ..., 3.4e+38 | Single-precision floating-point |
-| `void`     |  |  |  |
+| `void`     | 0 | / | function return type |
 
 
 ### GPIO library
