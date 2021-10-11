@@ -25,6 +25,8 @@ Link to your `Digital-electronics-2` GitHub repository:
    * Function declaration
    * Function definition
 
+In C, a function declaration give information on the type, parameters and the function's name while the function definition tells us what the function does.
+
 2. Part of the C code listing with syntax highlighting, which toggles LEDs only if push button is pressed. Otherwise, the value of the LEDs does not change. Use function from your GPIO library. Let the push button is connected to port D:
 
 ```c
