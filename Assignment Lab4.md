@@ -30,6 +30,12 @@ The difference is in the way an ISR and a function gets called. The functions ar
  */
 // WRITE YOUR CODE HERE
 
+/**
+ * @name  Definitions for 8-bit Timer/Counter0
+ * @note  t_OVF = 1/F_CPU * prescaler * 2^n where n = 8, F_CPU = 16 MHz
+ */
+// WRITE YOUR CODE HERE
+/** @brief Stop timer, prescaler 000 --> STOP */
 #define TIM0_stop()           TCCR0B &= ~((1<<CS02) | (1<<CS01) | (1<<CS00));
 /** @brief Set overflow 16us, prescaler 001 --> 1 */
 #define TIM0_overflow_16us()   TCCR0B &= ~((1<<CS02) | (1<<CS01)); TCCR0B |= (1<<CS00);
@@ -38,7 +44,7 @@ The difference is in the way an ISR and a function gets called. The functions ar
 /** @brief Set overflow 1ms, prescaler 011 --> 64 */
 #define TIM0_overflow_1ms() TCCR0B &= ~(1<<CS02); TCCR0B |= (1<<CS01) | (1<<CS00);
 /** @brief Set overflow 4ms, prescaler 100 --> 256 */
-#define TIM0_overflow_4ms()    TCCR0B &= ~((1<<CS01) | (1<<CS00)); TCCR1B |= (1<<CS02);
+#define TIM0_overflow_4ms()    TCCR0B &= ~((1<<CS01) | (1<<CS00)); TCCR0B |= (1<<CS02);
 /** @brief Set overflow 16ms, prescaler // 101 --> 1024 */
 #define TIM0_overflow_16ms()    TCCR0B &= ~(1<<CS01); TCCR0B |= (1<<CS02) | (1<<CS00);
 /** @brief Enable overflow interrupt, 1 --> enable */
