@@ -33,6 +33,74 @@ ISR(ADC_vect)
     itoa(value, lcd_string, 10);  // Convert decimal value to string
 
     // WRITE YOUR CODE HERE
+     lcd_gotoxy(8, 0);
+	lcd_puts("    ");
+	lcd_gotoxy(8, 0);
+	lcd_puts(lcd_string);
+		
+//Send ADC value to UART Tx
+	uart_puts(lcd_string);
+	uart_puts(" ");
+	
+	
+//Display ADC value in hexa at position "b"
+	
+	itoa(value, lcd_string, 16);
+	lcd_gotoxy(13,0);
+	lcd_puts("   ");
+	lcd_gotoxy(13,0);
+	lcd_puts(lcd_string);
+	
+	
+//Display what button was pressed at position "c"	
+//Set 'c' according to ADC value
+	if (value==1022){
+//None
+		lcd_gotoxy(8, 1);
+		lcd_puts("     ");
+		lcd_gotoxy(8, 1);
+		lcd_puts("none");
+	}
+	if(value>=97 && value<=103){
+//Up
+		lcd_gotoxy(8, 1);
+		lcd_puts("     ");
+		lcd_gotoxy(8, 1);
+		lcd_puts("up");
+		
+	}
+	if(value>=400 && value<=405){
+		
+//Left
+		lcd_gotoxy(8, 1);
+		lcd_puts("     ");
+		lcd_gotoxy(8, 1);
+		lcd_puts("left");
+		
+	}
+	if(value>=240 && value<=250){
+//Down
+		lcd_gotoxy(8, 1);
+		lcd_puts("     ");
+		lcd_gotoxy(8, 1);
+		lcd_puts("down");
+		
+	}
+	if(value>=647 && value<=653){
+//Select
+		lcd_gotoxy(8, 1);
+		lcd_puts("     ");
+		lcd_gotoxy(8, 1);
+		lcd_puts("select");
+		
+	}
+	if(value==0){
+//Right
+		lcd_gotoxy(8, 1);
+		lcd_puts("     ");
+		lcd_gotoxy(8, 1);
+		lcd_puts("right");
+	}
 
 }
 ```
