@@ -1,8 +1,8 @@
-# Lab 4: RENAUD VISIOLI
+# Lab 4: DOS SANTOS TEO
 
 Link to your `Digital-electronics-2` GitHub repository:
 
-   [https://github.com/Renaudv/Digital-Electronics-2](https://github.com/Renaudv/Digital-Electronics-2)
+ 
 
 
 ### Overflow times
