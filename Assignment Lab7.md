@@ -1,9 +1,8 @@
-# Lab 7: YOUR_FIRSTNAME LASTNAME
+# Lab 7: DOS SANTOS TEO
 
 Link to this file in your GitHub repository:
 
-[https://github.com/your-github-account/repository-name/lab_name](https://github.com/...)
-
+https://github.com/teods95/DigitalElectronics-2
 ### Analog-to-Digital Conversion
 
 1. Complete table with voltage divider, calculated, and measured ADC values for all five push buttons.
