@@ -47,7 +47,7 @@ ISR(TIMER1_OVF_vect)
            state = STATE_IDLE;
         }
         break;
-        break;
+        
     
     // Transmit I2C slave address and get result
     case STATE_SEND:
