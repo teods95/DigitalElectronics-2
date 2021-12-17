@@ -1,8 +1,8 @@
-# Lab 5: Alexandre TRUONG
+# Lab 5: DOS SANTOS TEO
 
 Link to my `Digital-electronics-2` GitHub repository:
 
-   [https://github.com/AkaiRyussei/Digital-electronics-2](https://github.com/AkaiRyussei/Digital-electronics-2)
+
 
 
 ### 7-segment library
