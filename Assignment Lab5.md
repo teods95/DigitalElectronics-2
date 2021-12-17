@@ -42,6 +42,17 @@ ISR(TIMER0_OVF_vect)
     static uint8_t pos = 0;
 
     // WRITE YOUR CODE HERE
+    if (pos == 0){
+	SEG_update_shift_regs(cnt0, 0);
+    }
+    else if (pos == 1){
+	SEG_update_shift_regs(cnt1, 1);
+    }
+    pos++;
+    if(pos > 1){
+	pos = 0;
+
+    }
 
 }
 ```
