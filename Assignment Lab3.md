@@ -54,4 +54,5 @@ GPIO_config_input_pullup(&DDRD, BTN);
 
 1. Scheme of traffic light application with one red/yellow/green light for cars and one red/green light for pedestrians. Connect AVR device, LEDs, resistors, one push button (for pedestrians), and supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values!
 
-   ![your figure]()
+   ![image0 (1)](https://user-images.githubusercontent.com/60385716/146589951-7723245f-ecb4-4bc2-be90-c786c8441fe1.jpeg)
+
