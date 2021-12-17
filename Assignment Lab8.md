@@ -62,8 +62,13 @@ ISR(TIMER1_OVF_vect)
         twi_stop();
         /* Test result from I2C bus. If it is 0 then move to ACK state, 
          * otherwise move to IDLE */
-
-        break;
+         if(result == 0 ){
+	     state = STATE_ACK;
+	 }
+         else{
+	     state = STATE_IDLE;
+       	 }
+         break;
 
     // A module connected to the bus was found
     case STATE_ACK:
