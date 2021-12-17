@@ -1,8 +1,8 @@
-# Lab 8: YOUR_FIRSTNAME LASTNAME
+# Lab 8: DOS SANTOS TEO
 
 Link to this file in your GitHub repository:
 
-[https://github.com/your-github-account/repository-name/lab_name](https://github.com/...)
+https://github.com/teods95/DigitalElectronics-2
 
 ### Arduino Uno pinout
 
