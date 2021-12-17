@@ -109,11 +109,13 @@ ISR(ADC_vect)
 
 1. (Hand-drawn) picture of UART signal when transmitting three character data `De2` in 4800 7O2 mode (7 data bits, odd parity, 2 stop bits, 4800&nbsp;Bd).
 
-   ![your figure]()
+![unnamed (6)](https://user-images.githubusercontent.com/60385716/146605715-9bbbf39a-7fb0-4596-b3f2-f9fdba9e7bf2.jpg)
+
 
 2. Flowchart figure for function `uint8_t get_parity(uint8_t data, uint8_t type)` which calculates a parity bit of input 8-bit `data` according to parameter `type`. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![your figure]()
+![unnamed (7)](https://user-images.githubusercontent.com/60385716/146605732-b9fb8884-8427-411e-b16f-0669763832d1.jpg)
+
 
 ### Temperature meter
 
@@ -121,4 +123,5 @@ Consider an application for temperature measurement and display. Use temperature
 
 1. Scheme of temperature meter. The image can be drawn on a computer or by hand. Always name all components and their values.
 
-   ![your figure]()
+![unnamed (8)](https://user-images.githubusercontent.com/60385716/146605756-dd6217a4-c3bd-42dc-9923-4592ab113421.jpg)
+
