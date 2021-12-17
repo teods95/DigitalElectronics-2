@@ -4,6 +4,10 @@ Link to my Digital-electronics-2 GitHub repository:
 7-segment library
 In your words, describe the difference between Common Cathode and Common Anode 7-segment display.
 
+CC SSD : CC is active high, each segment-driving output is normally low, but goes high to turn a segment on.
+CA SSD : CA is active low, each segment-driving output is normally high, but goes low to turn a segment on.
+Code listing with syntax highlighting of two interrupt service routines (TIMER1_OVF_vect, TIMER0_OVF_vect) from counter application with at least two digits, ie. values from 00 to 59:.
+
 The difference between the two displays is the common cathode has all the cathodes of the 7-segments connected directly together and the common anode has all the anodes of the 7-segments connected together.
 
 Code listing with syntax highlighting of two interrupt service routines (TIMER1_OVF_vect, TIMER0_OVF_vect) from counter application with at least two digits, ie. values from 00 to 59:
