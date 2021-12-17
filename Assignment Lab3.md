@@ -1,4 +1,4 @@
-# Lab 3: DOS SANTOS
+# Lab 3: DOS SANTOS TEO
 
 Link to your `Digital-electronics-2` GitHub repository:
 
