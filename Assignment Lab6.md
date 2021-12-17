@@ -32,6 +32,23 @@ The ASCII table contains letters, numbers, and other symbols. Each character is 
 // Custom character definition
 uint8_t customChar[16] = {
     // WRITE YOUR CODE HERE
+ 0b00000,
+	0b00100,
+	0b11011,
+	0b00100,
+	0b11111,
+	0b00100,
+	0b01110,
+	0b10001,
+ 0b10101,
+	0b00100,
+	0b01110,
+	0b11011,
+	0b11011,
+	0b01110,
+	0b00100,
+	0b10101
+  
 
 };
 ```
