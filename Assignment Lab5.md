@@ -21,14 +21,12 @@ ISR(TIMER1_OVF_vect)
 {
     // WRITE YOUR CODE HERE
     cnt0++;
-	if(cnt0 > 9)
-	{
-		cnt0 = 0;
-		cnt1++;
-		if (cnt1 > 5)				// for assignment
-		{
-			cnt1 = 0;				// for assignment
-		}
+	if(cnt0 > 9){
+	  cnt0 = 0;
+    	  cnt1++;
+	      if (cnt1 > 5){
+		  cnt1 = 0;				
+	      }
 	}
 
 }
