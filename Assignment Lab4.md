@@ -1,6 +1,6 @@
 # Lab 4: DOS SANTOS TEO
 
-Link to your `Digital-electronics-2` GitHub repository:
+https://github.com/teods95/DigitalElectronics-2
 
  
 
