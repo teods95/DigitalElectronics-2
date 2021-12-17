@@ -9,6 +9,7 @@ Link to this file in your GitHub repository:
 
 1. In your words, describe what ASCII table is.
    * ASCII table:
+The ASCII table contains letters, numbers, and other symbols. Each character is assigned a unique 7-bit code. 
 
 2. (Hand-drawn) picture of time signals between ATmega328P and LCD keypad shield (HD44780 driver) when transmitting three character data `De2`.
 
