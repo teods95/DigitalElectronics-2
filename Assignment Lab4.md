@@ -59,3 +59,5 @@ The difference is in the way an ISR and a function gets called. The functions ar
 
 1. Scheme of Knight Rider application with four LEDs and a push button, connected according to Multi-function shield. Connect AVR device, LEDs, resistors, push button, and supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values!
 
+![unnamed](https://user-images.githubusercontent.com/60385716/146594710-dd9f8835-4f1a-4e70-bb19-43166ddb6ec8.jpg)
+
